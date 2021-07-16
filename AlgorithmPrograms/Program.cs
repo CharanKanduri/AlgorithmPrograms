@@ -10,7 +10,7 @@ namespace AlgorithmPrograms
         {
             Console.WriteLine("Welcome To Algorithm Programs!");
 
-            Console.WriteLine("\nEnter 1-to Calculate Permutation of a string using Recursion Method\nEnter 2-to Calculate Permutation of a string using Iterative Method\nEnter 3-Binary Search Word from a file");
+            Console.WriteLine("\nEnter 1-to Calculate Permutation of a string using Recursion Method\nEnter 2-to Calculate Permutation of a string using Iterative Method\nEnter 3-Binary Search Word from a file\nEnter 4-InsertionSort");
             int ch = Convert.ToInt32(Console.ReadLine());
             switch (ch)
             {
@@ -33,6 +33,10 @@ namespace AlgorithmPrograms
                     List<string> wordList = new List<string>(filePath.Split(" "));
                     wordList.Sort();
                     BinarySearchWord.BinarySearch(wordList);
+                    break;
+                case 4:
+                    List<int> arr = InsertionSort.ArrayInput();
+                    InsertionSort.InsertionSorting(arr);
                     break;
             }
         }
