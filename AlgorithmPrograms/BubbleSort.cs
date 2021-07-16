@@ -37,10 +37,6 @@ namespace AlgorithmPrograms
             }
             Display(arr);
         }
-        
-
-        
-
         public static void Display(List<int> arrayList)
         {
             for (int i = 0; i < arrayList.Count; i++)
