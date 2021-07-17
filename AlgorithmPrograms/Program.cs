@@ -10,7 +10,7 @@ namespace AlgorithmPrograms
         {
             Console.WriteLine("Welcome To Algorithm Programs!");
 
-            Console.WriteLine("\nEnter 1-to Calculate Permutation of a string using Recursion Method\nEnter 2-to Calculate Permutation of a string using Iterative Method\nEnter 3-Binary Search Word from a file\nEnter 4-InsertionSort\nEnter 5-BubbleSort\nEnter 6- Anagram check\nEnter 7-PrimeNumbers in range");
+            Console.WriteLine("\nEnter 1-to Calculate Permutation of a string using Recursion Method\nEnter 2-to Calculate Permutation of a string using Iterative Method\nEnter 3-Binary Search Word from a file\nEnter 4-InsertionSort\nEnter 5-BubbleSort\nEnter 6- Anagram check\nEnter 7-PrimeNumbers in range\nEnter 8-Prime numbers that are Palindrome and Anagram");
             int ch = Convert.ToInt32(Console.ReadLine());
             switch (ch)
             {
